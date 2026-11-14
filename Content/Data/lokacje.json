@@ -1,0 +1,13 @@
+{
+  "opis": "Miejsca w świecie gry. Współrzędne w metrach, (0,0) w środku świata 2x2 km; +x na wschód, +y na południe.",
+  "lokacje": [
+    {"id": "redmont", "nazwa": "Zamek Redmont i wioska", "xy": [-300, 0], "promien": 160},
+    {"id": "chata_halta", "nazwa": "Las i chata Halta", "xy": [100, -200], "promien": 120},
+    {"id": "farma_boba", "nazwa": "Farma Starego Boba", "xy": [150, 300], "promien": 90},
+    {"id": "legowisko_dzika", "nazwa": "Legowisko dzika", "xy": [350, -450], "promien": 70},
+    {"id": "oboz_zlotu", "nazwa": "Obóz Zlotu Zwiadowców", "xy": [-400, -700], "promien": 130},
+    {"id": "spalona_osada", "nazwa": "Spalona osada", "xy": [550, 50], "promien": 80},
+    {"id": "rownina_samotnosci", "nazwa": "Równina Samotności", "xy": [725, 625], "promien": 330},
+    {"id": "ruiny_gorlanu", "nazwa": "Ruiny Gorlanu", "xy": [750, 750], "promien": 110}
+  ]
+}

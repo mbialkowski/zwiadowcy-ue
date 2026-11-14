@@ -16,12 +16,14 @@ Plugins/*/Intermediate/
 .vscode/
 .idea/
 
-# paczki z Fab/Megascans - licencja nie pozwala ich publikować (lista w docs/assety.md)
-Content/Fab/
-Content/Megascans/
-Content/MSPresets/
-Content/MetaHumans/
+# Content: w gicie tylko własne katalogi. Paczki z Fab (licencja zabrania publikacji, lista w docs/assety.md)
+# i treści z szablonu UE (kopiuje je Scripts/zw.cmd setup) zostają lokalnie.
+Content/*
+!Content/Zwiadowcy/
+!Content/Data/
 
 # pliki tymczasowe
 *.tmp
 *.log
+__pycache__/
+*.pyc

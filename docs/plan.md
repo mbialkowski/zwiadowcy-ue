@@ -29,7 +29,7 @@ do Elden Ringa: mroczne fantasy, złote światło i mgła. Niczego z Elden Ringa
 
 | # | Temat | Decyzja |
 |---|---|---|
-| 1 | Silnik | Najnowszy **Unreal Engine 5.x z Epic Games Launchera** |
+| 1 | Silnik | Najnowszy **Unreal Engine 5.x z Epic Games Launchera** (obecnie 5.8.4) |
 | 2 | Język | **C++** dla całej logiki, **cienkie Blueprinty** tylko do podpięcia assetów |
 | 3 | Sprzęt docelowy | **Ten komputer** (Ryzen AI Z2 Extreme, Radeon 890M, 16 GB): **30+ kl./s**; mocne PC dostają wyższe ustawienia |
 | 4 | Assety | **Fab/Megascans** (darmowe, pobierasz Ty) + **CC0** (Poly Haven, ambientCG, Quaternius) |
@@ -74,7 +74,7 @@ do Elden Ringa: mroczne fantasy, złote światło i mgła. Niczego z Elden Ringa
 - **Moduły C++:**
   - `Zwiadowcy` (gra): postać, kamera, walka, łuk, skradanie, koń, AI, misje, dialogi, zapis, interfejs,
   - `ZwiadowcyEditor` (tylko edytor): komendy do budowy świata i testów wywoływane ze skryptów.
-- **Narzędzia:** Visual Studio 2022 Community (kompilacja C++), Python wbudowany w edytor UE (skrypty budowy świata).
+- **Narzędzia:** Visual Studio Community 2026 (kompilacja C++; 2022 też działa), Python wbudowany w edytor UE (skrypty budowy świata).
   Systemowy Python nie jest potrzebny.
 
 ### 2.2 Praca bez klikania w edytorze
@@ -320,7 +320,7 @@ Po każdym etapie: testy automatyczne, zrzuty, pomiar kl./s i wpis w `docs/weryf
 Tylko kroki wymagające Twojego konta (do każdego dostaniesz dokładną instrukcję ze zrzutami):
 
 1. **Unreal Engine:** Epic Games Launcher → Unreal Engine → Library → „+” → najnowsza 5.x → Install (ok. 60-100 GB).
-2. **Visual Studio 2022 Community:** z obciążeniem „Game development with C++” (ok. 20 GB).
+2. **Visual Studio Community (2026 albo 2022):** z obciążeniem „Game development with C++” (ok. 20 GB).
 3. **Fab:** dodanie do biblioteki darmowych paczek z mojej listy (kilka kliknięć na pozycję).
 4. Ewentualnie **MetaHuman:** zalogowanie się w edytorze przy tworzeniu postaci.
 
