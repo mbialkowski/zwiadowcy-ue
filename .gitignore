@@ -1,0 +1,27 @@
+# Unreal Engine
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+Build/
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+.vs/
+.vscode/
+.idea/
+
+# paczki z Fab/Megascans - licencja nie pozwala ich publikować (lista w docs/assety.md)
+Content/Fab/
+Content/Megascans/
+Content/MSPresets/
+Content/MetaHumans/
+
+# pliki tymczasowe
+*.tmp
+*.log
